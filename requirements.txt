@@ -1,0 +1,46 @@
+uvicorn[standard]>=0.30.0
+
+# Base de datos
+SQLAlchemy>=2.0.29
+asyncpg>=0.29.0  # si usás PostgreSQL
+# o aiomysql si usás MySQL
+# aiomysql>=0.2.0
+
+# Autenticación y seguridad
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# Validaciones y serialización
+pydantic>=2.7.0
+pydantic-settings>=2.1.0  # si usás configuración por env
+
+# Utilidades
+python-multipart>=0.0.9  # subir archivos
+typer>=0.12.3  # CLI/metaprogramación
+
+# Si usas dotenv
+python-dotenv>=1.0.1
+
+# Test
+pytest>=8.2.0
+pytest-asyncio>=0.23.5
+httpx>=0.27.0
+
+fastapi[all]
+asyncpg
+alembic
+python-dotenv
+psycopg2-binary
+pytest
+pytest-asyncio
+pytest-cov
+passlib[bcrypt]
+python-jose[cryptography]
+arq
+Pillow
+bcrypt==3.2.0
+pre-commit
+locust
+dramatiq
+redis
+dramatiq

@@ -1,0 +1,152 @@
+admin:
+  empresas:
+    create: true
+    list: true
+    update: true
+    delete: true
+    view: true
+
+  abono_mensual:
+    create: true
+    list: true
+    update: true
+    delete: true
+    view: true
+
+empresa:
+  categorias:
+    create: true
+    list: true
+    update: true
+    delete: true
+    view: true
+
+  productos:
+    create: true
+    list: true
+    update: true
+    delete: true
+    view: true
+
+  monedas:
+    create: true
+    list: true
+    update: true
+    delete: true
+    view: true
+
+  descuentos:
+    create: true
+    list: true
+    update: true
+    delete: true
+    view: true
+
+  sucursales:
+    list: true
+    update: true
+    delete: true
+    view: true
+
+  clientes:
+    create: true
+    list: true
+    update: true
+    delete: true
+    view: true
+
+  encargados:
+    create: true
+    list: true
+    update: true
+    delete: true
+    view: true
+
+  empleados:
+    create: true
+    list: true
+    update: true
+    delete: true
+    view: true
+
+  sliders:
+    create: true
+    list: true
+    update: true
+    delete: true
+    view: true
+
+  pedidos:
+    create: true
+    list: true
+    update: true
+    delete: true
+    view: true
+
+  mediosdeenvios:
+    create: true
+    list: true
+    update: true
+    delete: true
+    view: true
+
+  mediosdepagos:
+    create: true
+    list: true
+    update: true
+    delete: true
+
+  stock:
+    list: true
+    update: true
+    view: true
+
+encargado:
+  pedidos:
+    create: true
+    list: true
+    update: true
+    view: true
+
+  empleados:
+    list: true
+    update: true
+    view: true
+
+  clientes:
+    create: true
+    list: true
+    update: true
+    view: true
+
+  productos:
+    list: true
+    update: true
+    view: true
+  stock:
+    list: true
+    update: true
+    view: true
+vendedor:
+  pedidos:
+    create: true
+    list: true
+    update: true
+    view: true
+
+  clientes:
+    list: true
+    update: true
+    delete: true
+    view: true
+
+  productos:
+    list: true
+    update: true
+    view: true
+
+  stock:
+    list: true
+    update: true
+    view: true
+
